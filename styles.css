@@ -1,0 +1,53 @@
+table {
+  width: 80%;
+  height: 375px;
+}
+
+* {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+table {
+  border-bottom: 2px solid red;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: red;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+tbody {
+  background-color: white;
+  color: black;
+  table-layout: fixed;
+}
+
+ul {
+  list-style: none;
+  text-align: end;
+  position: absolute;
+  margin-right: 3%;
+  top: 0;
+  right: 0;
+}
+
+/* CSS for styling the list items (optional) */
+li {
+  display: inline;
+  font-size: large;
+  font-weight: 600;
+}
